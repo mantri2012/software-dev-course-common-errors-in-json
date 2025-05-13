@@ -75,10 +75,10 @@ const invalidBookingJSON = `
 // ============================================
 
 /*
-- Use a JSON validator or linter (e.g., https://jsonlint.com/) to test your final version
+- Use a JSON validator or linter (e.g., https://jsonlint.com/) to test your final version - Used this 
 - Keep track of each fix:
   • What was wrong?
-  • Why is it a problem in JSON?
+  • Why is it a problem in JSON? 
   • What did you change to fix it?
 */
 
@@ -90,12 +90,13 @@ const invalidBookingJSON = `
 /*
 💬 Reflect and answer the following:
 
-1️⃣ What tools or techniques did you use to identify the errors?
-
-2️⃣ How did you confirm that your corrected JSON file was valid?
-
-3️⃣ Which errors were the most difficult to spot? Why?
-
+1️⃣ What tools or techniques did you use to identify the errors? 
+Ans - Two-Three erros I have noticed the moment I saw the code in detail, they are missing coma, quotation marks for checkInDate,name property. Age key was undefined changhed to null. There was extra comma after parking. Then I put the whole code in jsonlint.com and clicked on validate. Upon clicking on validate I have seen errors poped. 
+2️⃣ How did you confirm that your corrected JSON file was valid? 
+Ans - I used the jsonlint.com link provided above to check whether my code was right.
+3️⃣ Which errors were the most difficult to spot? Why? 
+Ans - for me unefined was the last one I got and changed to null. I realised it little late.
 4️⃣ What strategies can help you avoid these kinds of errors in the future?
    (e.g., syntax highlighting, linters, writing JSON by example)
+Ans - Using the jsonlint to check the code always as json file needs to follow strict rules. 
 */
